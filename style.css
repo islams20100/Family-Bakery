@@ -1,0 +1,324 @@
+body
+{
+    font-family: 'Alegreya', serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    line-height: 200%;
+}
+
+h2,h3
+{
+    margin: 5% 0 3% 0;
+    
+    
+}
+
+
+
+
+.container
+{
+    
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+/* ----------------------------------- */
+/* home */
+.home
+{
+    background-color: green;
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+}
+
+.nav
+{
+    
+    overflow: auto;
+}
+
+.logo
+{
+    
+    width: 30%;
+    float: left;
+    margin: 1% 0 0 2%;
+}
+
+
+.menu
+{
+    width: 50%;
+    float: right;
+    margin-top: 2%;
+}
+
+.menu li
+{
+    
+    
+    margin-right: 5%;
+    float: right;
+    list-style-type: none;
+    color: white;
+    font-size: larger;
+
+}
+
+
+.header
+{
+    
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+}
+.header h1
+{
+    font-size: 100px;
+    font-weight: 200;
+}
+
+.header .btn
+{
+    padding: 15px 30px;
+    margin-top: 5%;
+    margin-right: 1%;
+    color: white;
+    border: solid;
+    font-weight: 800; 
+}
+
+.header .btn1
+{
+    background-color: #8e7754;
+}
+
+.header .btn2
+{
+    background-color: transparent;
+}
+
+/* -------------------------------------------- */
+/* who */
+.who
+{
+    margin: 5% 0;
+}
+.who-img
+{
+    width: 50%;
+    float: left;
+}
+
+.who img
+{
+    width: 100%;
+}
+
+.who-content
+{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+.who-element
+{
+    margin-top: 5%;
+    overflow: auto;
+}
+
+.who-icon
+{
+    border: solid gray 1px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 4%;
+    padding: 2%;
+    color: #8e7754;
+    font-size: larger ;
+}
+
+.who-icon-content
+{
+    float: left;
+    margin-top: 1%;
+}
+
+
+/* ------------------------------------------- */
+/*location  */
+.loc
+{
+    margin: 5% 0;
+    background-color:whitesmoke;
+}
+.loc-content
+{
+   
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    box-sizing: border-box;
+    padding-right: 5%;
+
+}
+.loc-img
+{
+    width: 50%;
+    float: left;
+}
+
+.loc-img img
+{
+    width: 100%;
+}
+/* -------------------------------------------- */
+/* backing */
+.bak
+{
+    
+    margin: 5% 0;
+}
+
+.bak-header
+{
+    text-align: center;
+}
+
+.bak-element
+{
+    width: 33%;
+    float: left;
+    padding: 2% 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bak-element img
+{
+    width: 100%;
+}
+
+/* -------------------------------------------- */
+/* contact */
+.contact
+{
+    margin: 5% 0;
+    background-color:whitesmoke;
+}
+.contact-info
+{
+    
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    box-sizing: border-box;
+    padding-right: 3%;
+    
+}
+
+.contact-img
+{
+    width: 50%;
+    float: left;
+}
+
+.contact-element
+{
+    
+    margin-top: 5%;
+    overflow: auto;
+    
+}
+
+.contact-img iframe
+{
+    width: 100%;
+}
+
+.contact-icon
+{
+    border: solid gray 1px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 4%;
+    padding: 2%;
+    color: #8e7754;
+    font-size: larger ;
+}
+
+.contact-icon-content
+{
+    float: left;
+    margin-top: 1%;
+}
+/* --------------------------------------------- */
+/* about */
+.about
+{
+    
+    background-color: #403d38;
+    background-image: url(images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    color: #969696;
+    padding: 5% 0;
+}
+.about-element
+{
+    
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 2% 1%;
+}
+
+.about span
+{
+    margin-right: 5%;
+}
+
+.about hr
+{
+    margin-bottom: 5%;
+    border: none;
+    background-color: whitesmoke;
+    height: 0.05%;
+    
+}
+
+/* --------------------------------------------- */
+/* copy */
+.copy
+{
+    background-color: #353330;
+    color: #969696;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.copy .fab
+{
+    border: solid gray 1px;
+    border-radius: 60px;
+    padding: 0.5em 0.6em;
+    margin: 1% 0.5% 0 0;
+    color: gray;
+    font-size: larger ;
+}
+}

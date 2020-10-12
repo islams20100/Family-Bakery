@@ -1,0 +1,6 @@
+- build website using pure html and css
+- using float to put elements beside each other
+
+
+- link :
+http://www.engage.veented.com/bakery/
